@@ -1,0 +1,84 @@
+body{
+	background-image: url(screen.png);
+}
+
+.home_video{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	min-height: 100vh;
+	
+ }
+
+.home_text-n{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	margin-top: -40px;
+	margin-left: 50px;
+	opacity: 0.9;
+}
+
+.home_text-billboard{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	margin-top: 160px;
+	margin-left: 100px;
+	opacity: 1.0;
+	
+}
+
+.home_text-text{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	margin-top: 425px;
+	margin-left: 110px;
+	opacity: 0.9;
+	
+
+}
+
+a{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	size: 50px;
+	margin-top: 630px;
+	margin-left: 150px;
+	text-decoration: none;
+	opacity: 0.9;
+	color: #fff;
+	font-family: 'Fjalla One', sans-serif;
+
+	
+}
+
+.home_text-billboard:hover{
+	opacity: 0.7;
+}
+
+.home_text-text:hover{
+	opacity: 0.7;
+	color: #fff;
+}
+
+.home_text-n:hover{
+	opacity: 0.7;
+}
+
+a:hover{
+	opacity: 1.0;
+	background-color: #000000;
+	padding: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
